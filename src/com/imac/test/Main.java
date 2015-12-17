@@ -1,4 +1,4 @@
-package com.Test;
+package com.imac.test;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
