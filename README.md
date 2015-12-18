@@ -1,4 +1,4 @@
-﻿## SparkExample Rate  IMAC - BigData Team - 2015/12/15
+## SparkExample Rate  IMAC - BigData Team - 2015/12/15
 
 ###問題描述
 
@@ -31,7 +31,7 @@ $ hadoop fs -put RateData /input/Rate
 ###執行分析
 
 ```
-spark-submit --class com.imac.test.Main.class \
+spark-submit --class com.imac.test.Main \
 --master yarn-cluster Rate.jar \
 /input/Rate/RateData \
 /spark/RateOutput

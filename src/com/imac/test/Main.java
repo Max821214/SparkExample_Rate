@@ -20,6 +20,7 @@ public class Main {
 		
 		SparkConf conf = new SparkConf();
 		conf.setAppName("RateSpark");
+//		conf.setMaster("yarn-cluster");
 		
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> file = sc.textFile(args[0]);
